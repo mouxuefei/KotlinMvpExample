@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:background="@drawable/dialog_custom_bg"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/y20"
+              android:paddingLeft="@dimen/x30"
+              android:paddingRight="@dimen/x30"
+              android:paddingTop="@dimen/y20">
+
+    <com.tuyenmonkey.mkloader.MKLoader
+        android:layout_width="@dimen/x70"
+        android:layout_height="@dimen/x70"
+        app:mk_color="#ffffff"
+        app:mk_type="LineSpinner"
+        />
+
+    <TextView
+        android:id="@+id/tv_loading_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/x20"
+        android:text="加载中..."
+        android:textColor="#ffffff"
+        android:textSize="@dimen/text_size_14"
+      />
+
+</LinearLayout>

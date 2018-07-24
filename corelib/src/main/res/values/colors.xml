@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#4FE183</color>
+
+    <color name="colorPrimaryDark">#4FE183</color>
+
+    <color name="white">#ffffff</color>
+
+    <color name="barcolor">#4FE183</color>
+    <color name="_666">#666666</color>
+
+    <color name="color_gray_69">#69696C</color>
+
+    <color name="color_black">#ff000000</color>
+
+    <color name="shadow">#dfdfdf</color>
+
+    <color name="_999">#999999</color>
+
+    <color name="_858585">#858585</color>
+
+    <color name="trans">#00ffffff</color>
+</resources>

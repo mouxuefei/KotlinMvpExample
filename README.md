@@ -522,6 +522,8 @@ fun <T : BaseBean, P : ITopPresenter> Observable<T>.listSubcribe(
 ![这里写图片描述](./image/a.png)
 ![这里写图片描述](./image/b.png)
 ![这里写图片描述](./image/c.png)
+
+
 这样就生成了，真的很方便
 
 

@@ -14,7 +14,7 @@ RxJava + Retrofit  已成为当前Android 网络请求最流行的方式。
 首先既然采用了MVP，肯定必不可少具M层，V层，P层的基础接口，封装一个公共的操作，看一下具体实现
 我把顶级的接口分成了两层，这样有利于在写泛型的时候没那么麻烦
 先看下目录结构
-![这里写图片描述](https://img-blog.csdn.net/20180724160810711?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3ZpbGxhX21vdQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![这里写图片描述](./image/aa.png)
 
 *  顶级接口
 第一层

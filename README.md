@@ -519,9 +519,9 @@ fun <T : BaseBean, P : ITopPresenter> Observable<T>.listSubcribe(
 这里我推荐一个我同学的插件，结合这种lib使用贼方便
 插件的名字叫MvpAutoCodePlus，github地址 [插件地址](https://github.com/longforus/MvpAutoCodePlus)，，，这个low比名字还是我帮他取的。
 具体使用
-![这里写图片描述](https://img-blog.csdn.net/20180724153507423?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3ZpbGxhX21vdQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
-![这里写图片描述](https://img-blog.csdn.net/2018072415362047?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3ZpbGxhX21vdQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
-![这里写图片描述](https://img-blog.csdn.net/20180724153755824?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3ZpbGxhX21vdQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![这里写图片描述](./image/a.png)
+![这里写图片描述](./image/b.png)
+![这里写图片描述](./image/c.png)
 这样就生成了，真的很方便
 
 

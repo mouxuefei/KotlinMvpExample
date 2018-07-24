@@ -8,7 +8,7 @@ package com.exmple.corelib.http.constant
  * @desc
  */
 object URLConstant {
-    const val BASE_URL = "http://meiqi.api.6lapp.cn:8081/"
-    const val BASE_URL2 = "http://172.168.23.191:8089/my/meiqi/app"
+    const val BASE_URL = "http://www.baidu.com/"
+   
 
 }

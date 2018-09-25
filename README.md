@@ -527,3 +527,7 @@ fun <T : BaseBean, P : ITopPresenter> Observable<T>.listSubcribe(
 
 
 最后我写了一个demo放在github上面 [项目地址](https://github.com/mouxuefei/KotlinMvpExample)
+
+如果大家喜欢,请关注我的公众号,感谢大家支持,地址如下:
+
+![这里写图片描述](./image/code.jpg)

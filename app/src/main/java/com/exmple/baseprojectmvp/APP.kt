@@ -1,6 +1,6 @@
 package com.exmple.baseprojectmvp
 
-import com.exmple.corelib.base.LibApplication
+import com.exmple.baselib.base.LibApplication
 
 /**
  * @FileName: APP.java

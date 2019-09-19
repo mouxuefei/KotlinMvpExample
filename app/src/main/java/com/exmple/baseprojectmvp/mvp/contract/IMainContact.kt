@@ -1,9 +1,9 @@
 package com.exmple.baseprojectmvp.mvp.contract
 
 import com.exmple.baseprojectmvp.http.MainDataBean
-import com.exmple.corelib.mvp.IListView
-import com.exmple.corelib.mvp.IModel
-import com.exmple.corelib.mvp.IPresenter
+import com.exmple.baselib.mvp.IListView
+import com.exmple.baselib.mvp.IModel
+import com.exmple.baselib.mvp.IPresenter
 import io.reactivex.Observable
 
 /**

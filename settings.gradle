@@ -1,1 +1,1 @@
-include ':app',':corelib'
+include ':app', ':baselib'

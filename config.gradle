@@ -1,0 +1,85 @@
+ext {
+    android = [
+            compileSdkVersion: 28,
+            buildToolsVersion: "28.0.3",
+            minSdkVersion    : 16,
+            targetSdkVersion : 28,
+            versionCode      : 0,
+            versionName      : "1.0.0"
+    ]
+
+    version = [
+            androidSupportSdkVersion: "28.0.0",
+            retrofitSdkVersion      : "2.4.0",
+            dagger2SdkVersion       : "2.16",
+            glideSdkVersion         : "4.5.0",
+            lifeVersion             : "1.1.1",
+            kotlin_version          : "1.3.21",
+    ]
+
+    dependencies = [
+            //kotlin
+            "kotlin"                            : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${version["kotlin_version"]}",
+            "kotlinx-coroutines"                : "org.jetbrains.kotlinx:kotlinx-coroutines-core:0.20",
+
+            //support
+            "appcompat-v7"                      : "com.android.support:appcompat-v7:${version["androidSupportSdkVersion"]}",
+            "design"                            : "com.android.support:design:${version["androidSupportSdkVersion"]}",
+            "support-v4"                        : "com.android.support:support-v4:${version["androidSupportSdkVersion"]}",
+            "cardview-v7"                       : "com.android.support:cardview-v7:${version["androidSupportSdkVersion"]}",
+            "annotations"                       : "com.android.support:support-annotations:${version["androidSupportSdkVersion"]}",
+            "recyclerview-v7"                   : "com.android.support:recyclerview-v7:${version["androidSupportSdkVersion"]}",
+            "constraintLayout"                  : "com.android.support.constraint:constraint-layout:1.1.3",
+
+            //network
+            "retrofit"                          : "com.squareup.retrofit2:retrofit:${version["retrofitSdkVersion"]}",
+            "retrofit-converter-gson"           : "com.squareup.retrofit2:converter-gson:${version["retrofitSdkVersion"]}",
+            "retrofit-adapter-rxjava2"          : "com.squareup.retrofit2:adapter-rxjava2:${version["retrofitSdkVersion"]}",
+            "okhttp3"                           : "com.squareup.okhttp3:okhttp:3.10.0",
+            "logging-interceptor"               : "com.squareup.okhttp3:logging-interceptor:3.9.0",
+            "glide"                             : "com.github.bumptech.glide:glide:${version["glideSdkVersion"]}",
+            "glide-transformations"             : "jp.wasabeef:glide-transformations:2.0.1",
+            "gson"                              : "com.google.code.gson:gson:2.8.2",
+
+            //rx2
+            "rxandroid2"                        : "io.reactivex.rxjava2:rxandroid:2.0.2",
+            "rxjava2"                           : "io.reactivex.rxjava2:rxjava:2.1.12",
+            "rxbus"                             : "com.blankj:rxbus:1.5",
+            //其他
+            "logger"                             : "com.orhanobut:logger:2.2.0",
+//            "leakcanary-android"                             : "com.squareup.leakcanary:leakcanary-android:2.0-beta-1",
+            "mkloader"                             : "com.tuyenmonkey:mkloader:1.4.0",
+            "eventbus"                             : "org.greenrobot:eventbus:3.0.0",
+            "statusbarutil"                             : "com.jaeger.statusbarutil:library:1.4.0",
+            "baseRecyclerViewAdapterHelper"                             : "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.42",
+            "photoView"                             : "com.github.chrisbanes:PhotoView:2.0.0",
+            "smartRefreshLayout"                             : "com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-12",
+
+    ]
+
+    //第三方测试环境的key
+    debugPlaceholders = [
+            //高德地图 ApiKey
+            "LOCATION_KEY"      : "ApiKey",
+            //BUGLY AppId
+            "BUGLY_APPID"       : "ApiKey",
+            //BUGLY_ENABLE_DEBUG
+            "BUGLY_ENABLE_DEBUG": true,
+            //极光推送 包名
+            "JPUSH_PKGNAME"     : "com.xx.xxx",
+            //极光推送 AppKey
+            "JPUSH_APPKEY"      : "ApiKey",
+            //极光推送 Channel
+            "JPUSH_CHANNEL"     : "developer-default"
+    ]
+
+    //第三方正式环境的key
+    releasePlaceholders = [
+            "LOCATION_KEY"      : "ApiKey",
+            "BUGLY_APPID"       : "ApiKey",
+            "BUGLY_ENABLE_DEBUG": false,
+            "JPUSH_PKGNAME"     : "com.xx.xxx",
+            "JPUSH_APPKEY"      : "ApiKey",
+            "JPUSH_CHANNEL"     : "developer-default"
+    ]
+}

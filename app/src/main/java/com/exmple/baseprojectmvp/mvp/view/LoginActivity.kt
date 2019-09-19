@@ -3,7 +3,7 @@ package com.exmple.baseprojectmvp.mvp.view
 import com.exmple.baseprojectmvp.R
 import com.exmple.baseprojectmvp.mvp.contract.ILoginContract
 import com.exmple.baseprojectmvp.mvp.presenter.LoginPresenter
-import com.exmple.corelib.utils.CommonUtil
+import com.exmple.baselib.utils.CommonUtil
 import com.sihaiwanlian.baselib.mvp.BaseMvpTitleActivity
 import kotlinx.android.synthetic.main.activity_login.*
 

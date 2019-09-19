@@ -1,7 +1,7 @@
 package com.exmple.baseprojectmvp.mvp.model
 
 import com.exmple.baseprojectmvp.mvp.contract.ILoginContract
-import com.exmple.corelib.mvp.BaseModelKt
+import com.exmple.baselib.mvp.BaseModelKt
 
 /**
  * Description :

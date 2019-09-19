@@ -1,6 +1,7 @@
 package com.exmple.baseprojectmvp.http
 
-import com.exmple.corelib.http.retrofit.RetrofitFactory
+import com.exmple.baselib.http.retrofit.RetrofitFactory
+import okhttp3.Request
 
 /**
  * FileName: com.beijing.zhagen.meiqi.http.retrofit.MainRetrofit.java
@@ -11,11 +12,15 @@ import com.exmple.corelib.http.retrofit.RetrofitFactory
  */
 
 object MainRetrofit : RetrofitFactory<MainApi>() {
+    override fun getBaseUrl()= "http://www.baidu.com"
+
+    override fun getHeader(builder: Request.Builder): Request.Builder {
+        builder.addHeader("token","XXXXXXXXXXXXXXXXXXXXX")
+        return  builder
+    }
+
     override fun getApiService(): Class<MainApi> {
         return MainApi::class.java
     }
 
-    override fun getToken(): String {
-        return ""
-    }
 }

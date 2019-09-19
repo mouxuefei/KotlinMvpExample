@@ -1,9 +1,9 @@
 package com.exmple.baseprojectmvp.mvp.presenter
 
+import com.exmple.baselib.http.mSubscribe
+import com.exmple.baselib.mvp.BasePresenterKt
 import com.exmple.baseprojectmvp.mvp.contract.IMainContact
 import com.exmple.baseprojectmvp.mvp.model.MainModel
-import com.exmple.corelib.mSubscribe
-import com.exmple.corelib.mvp.BasePresenterKt
 
 /**
  * @FileName: MainPresenter.java
@@ -12,12 +12,13 @@ import com.exmple.corelib.mvp.BasePresenterKt
  * @version V1.0 <描述当前版本功能>
  * @desc
  */
-class MainPresenter:BasePresenterKt<IMainContact.View>(), IMainContact.Presenter {
+class MainPresenter : BasePresenterKt<IMainContact.View>(), IMainContact.Presenter {
     override var mModel: IMainContact.Model? = MainModel()
     override fun getDataByNet() {
-        mModel?.getMainData()?.mSubscribe(mView,mModel,"正在获取数据中...") {
-            mView?.getDataSuccess()
+        mModel?.getMainData()?.mSubscribe(mView,mModel){
+
         }
+
     }
 }
 

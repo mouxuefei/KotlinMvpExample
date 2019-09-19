@@ -3,7 +3,7 @@ package com.exmple.baseprojectmvp.mvp.model
 import com.exmple.baseprojectmvp.http.MainDataBean
 import com.exmple.baseprojectmvp.http.MainRetrofit
 import com.exmple.baseprojectmvp.mvp.contract.IMainContact
-import com.exmple.corelib.mvp.BaseModelKt
+import com.exmple.baselib.mvp.BaseModelKt
 import io.reactivex.Observable
 
 /**

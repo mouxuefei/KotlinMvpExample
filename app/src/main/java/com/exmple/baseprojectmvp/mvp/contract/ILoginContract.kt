@@ -1,8 +1,8 @@
 package com.exmple.baseprojectmvp.mvp.contract
 
-import com.exmple.corelib.mvp.IModel
-import com.exmple.corelib.mvp.IPresenter
-import com.exmple.corelib.mvp.IView
+import com.exmple.baselib.mvp.IModel
+import com.exmple.baselib.mvp.IPresenter
+import com.exmple.baselib.mvp.IView
 
 /**
  * Description :

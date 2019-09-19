@@ -2,7 +2,7 @@ package com.exmple.baseprojectmvp.mvp.presenter
 
 import com.exmple.baseprojectmvp.mvp.contract.ILoginContract
 import com.exmple.baseprojectmvp.mvp.model.LoginModel
-import com.exmple.corelib.mvp.BasePresenterKt
+import com.exmple.baselib.mvp.BasePresenterKt
 
 /**
  * Description :

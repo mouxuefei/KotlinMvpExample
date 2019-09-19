@@ -10,6 +10,9 @@
 
   					implementation 'com.mou:mvp:1.0.0'
 
+ps:如果直接添加依赖下载不下来,可以先添加仓库 : `  maven { url 'https://dl.bintray.com/mouxuefei/maven' }`
+
+
 ##   优化内容
 
 > 1,网络请求方面进行了优化处理
